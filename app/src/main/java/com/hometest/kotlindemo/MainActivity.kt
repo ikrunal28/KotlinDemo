@@ -16,8 +16,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
        // var str=binding.tv1.text.toString()
         binding.btn.setOnClickListener{
-            Toast.makeText(this, "hello", Toast.LENGTH_SHORT).show()
             Log.d("name",binding.tv1.text.toString())
+            Toast.makeText(this, "hello", Toast.LENGTH_SHORT).show()
         }
     }
 }
